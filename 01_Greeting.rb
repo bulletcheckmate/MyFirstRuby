@@ -1,3 +1,5 @@
+# プログラムが順次進行されるかをテストする
+
 puts "Good morning"
 puts "Good afternoon"
 puts "Good evening"
