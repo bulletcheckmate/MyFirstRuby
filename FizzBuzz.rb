@@ -1,4 +1,6 @@
-for i in 1..15
+# FizzBuzz問題を100まで解くプログラムを記述する
+
+for i in 1..100
     if i.remainder(3) == 0
         p "Fizz"
     elsif i.remainder(5) == 0
@@ -8,9 +10,9 @@ for i in 1..15
     end
 end
 
-# これだと15のときに「Fizz」と表示されてしまう
+# これだと15の倍数のときに「Fizz」と表示されてしまう
 
-for i in 1..15
+for i in 1..100
     if i.remainder(3) == 0 && i.remainder(5) == 0
         p "FizzBuzz"
     elsif i.remainder(3) == 0
