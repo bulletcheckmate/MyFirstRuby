@@ -1,4 +1,4 @@
-# プログラムが順次進行されるかをテストする
+# プログラムが順次進行されるかをテスト
 
 puts "Good morning"
 puts "Good afternoon"
